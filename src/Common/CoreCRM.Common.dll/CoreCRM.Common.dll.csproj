@@ -2,16 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>CoreCRM.Common</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="2.2.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\Common\CoreCRM.Common.dll\CoreCRM.Common.dll.csproj" />
-    <ProjectReference Include="..\..\DataLayer\CoreCRM.DataLayer.DbDomain\CoreCRM.DataLayer.DbDomain.csproj" />
-  </ItemGroup>
 
   <ItemGroup>
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
